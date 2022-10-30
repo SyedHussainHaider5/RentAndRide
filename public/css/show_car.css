@@ -1,0 +1,60 @@
+#car_details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    /* background-image: url("images/image_3.jpg"); */
+    color: black
+}
+#login{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #08020e;
+    flex-direction: column;
+    padding: 2rem;
+    color: white;
+    /* background-image: url("images/image_3.jpg"); */
+    border-radius: 2rem;
+    
+}
+input{
+    border-radius: 1.5rem;
+    background: transparent;
+    color: white;   
+}
+input:hover{
+    background-color: #7d081f;
+}
+#confirm{
+    border-radius: 1.5rem;
+    background: transparent;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+#confirm:hover{
+    background-color: #7d081f;
+}
+#credentials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+}
+img{
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.tags:hover{
+    color: #7d081f;
+}
+

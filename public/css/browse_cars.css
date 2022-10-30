@@ -1,0 +1,83 @@
+#flex_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+}
+#label{
+    color: white;
+}
+#categories{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    align-items: center;
+    color: white;
+    width: 30%;
+}
+.category{
+    background: transparent;
+    color: white;
+
+}
+.category:hover{
+    background-color: #201f1f;;
+}
+/* #grid{
+    background-color: #151320;
+    height: 100vh;
+    place-items: center center;
+    font-family: 'Poppins',sans-serif;
+    display: grid;
+  grid-template-columns: auto auto auto;
+  
+  padding: 10px;
+    position: relative;
+} */
+/* <div class="serv">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+  </ul>
+</div> */
+
+.cards{
+    display: flex;
+            flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    margin: 5%;
+
+    
+}
+.card{
+    flex: 25%;
+    margin: 2%;
+    padding: 10px;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  
+  font-size: 30px;
+  text-align: center;
+}
+.container{
+    /* position: relative; */
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+.image{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+    /* position: relative; */
+}
+.details{
+    padding: 20px 10px;
+}
